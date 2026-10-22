@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_text"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewQuestion"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/q1"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/desc_q1"/>
+
+    <Button
+        android:id="@+id/buttonOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option2"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option3"
+        android:layout_marginBottom="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="1"/>
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_text"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

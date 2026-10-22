@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuizImages</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="progress_text">Question 1/5</string>
+    <string name="score_text">Score : 0</string>
+    <string name="progress_format">Question %1$d/%2$d</string>
+    <string name="final_score_format">Score final : %1$d / %2$d</string>
+
+    <!-- Descriptions pour l’accessibilité -->
+    <string name="desc_q1">Image représentant un chat</string>
+    <string name="desc_q2">Image représentant la ville de Paris</string>
+    <string name="desc_q3">Image représentant la couleur bleue</string>
+    <string name="desc_q4">Image représentant une moto</string>
+    <string name="desc_q5">Image représentant une banane</string>
+</resources>
